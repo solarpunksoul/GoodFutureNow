@@ -1,0 +1,9 @@
+p {
+	margin-bottom: 3.5rem;
+	font-weight: bold;
+	line-height: initial;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}

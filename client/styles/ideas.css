@@ -1,0 +1,33 @@
+article {
+	padding: 2rem 3.5rem;
+	border: solid 0.1rem steelblue;
+	border-radius: 50%;
+}
+
+main, article {
+	margin-bottom: 5rem;
+}
+
+a[href="addIdea.html"] {
+	display: inline-block;
+	padding: 2rem;
+	font-weight: bold;
+	color: steelblue;
+	text-decoration: none;
+	border: solid 0.1rem steelblue;	
+	border-radius: 67% 33% 67% 33% / 67% 33% 67% 33%;
+}
+
+@media (min-width: 768px) {
+	.ideas {
+		padding-left: 25%;
+		padding-right: 25%;
+	}
+}
+
+@media (min-width: 1025px) {
+	.ideas {
+		padding-left: 33%;
+		padding-right: 33%;
+	}
+}
